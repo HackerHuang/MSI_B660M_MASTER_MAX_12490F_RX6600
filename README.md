@@ -21,18 +21,13 @@
 
 优化：
 1、屏蔽系统更新，避免出现自动更新系统导致的无法启动问题，在host中添加以下内容
-# Apple
 ## Mac Software Update
-#/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
 127.0.0.1 swdist.apple.com
 127.0.0.1 swscan.apple.com
 127.0.0.1 swcdn.apple.com
-#127.0.0.1 xp.apple.com
-#/usr/libexec/mobileassetd
 127.0.0.1 gdmf.apple.com
 127.0.0.1 xp.apple.com
-#/usr/libexec/nsurlsessiond
 127.0.0.1 mesu.apple.com
-127.0.0.1 updates.cdn-apple.com #download url
+127.0.0.1 updates.cdn-apple.com
 
 建议使用switch host软件来实现host修改，方便下次启动更新
