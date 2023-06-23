@@ -1,0 +1,2 @@
+# MSI_B660M_MASTER_MAX_12490F_RX6600
+基于opencore的苹果引导文件
